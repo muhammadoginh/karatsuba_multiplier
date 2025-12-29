@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+Starting GF(2) carry-less multiplication tests (BW=64)...
+FAIL at time 45000: 5 * 5 = 0 (expected 17)
+$stop called at time : 45 ns : File "D:/Projects/karatsuba_multiplier/karatsuba_multiplier.srcs/sim_1/new/mul64_v2_tb.sv" Line 62
+PASS at time 65000: 8 * 8 = 64
+PASS at time 85000: 3 * 3 = 5
+PASS at time 105000: 1 * 12345 = 12345
+PASS at time 125000: 0 * 18446744073709551615 = 0
+PASS at time 145000: 9223372036854775808 * 9223372036854775808 = 85070591730234615865843651857942052864
+All tests passed!
+$finish called at time : 145 ns : File "D:/Projects/karatsuba_multiplier/karatsuba_multiplier.srcs/sim_1/new/mul64_v2_tb.sv" Line 120

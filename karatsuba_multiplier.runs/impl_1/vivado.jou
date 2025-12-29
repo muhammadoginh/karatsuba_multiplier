@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon Dec 29 17:29:44 2025
-# Process ID: 23244
+# Start of session at: Mon Dec 29 20:32:39 2025
+# Process ID: 12932
 # Current directory: D:/Projects/karatsuba_multiplier/karatsuba_multiplier.runs/impl_1
-# Command line: vivado.exe -log mul64.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mul64.tcl -notrace
-# Log file: D:/Projects/karatsuba_multiplier/karatsuba_multiplier.runs/impl_1/mul64.vdi
+# Command line: vivado.exe -log mul64_v2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mul64_v2.tcl -notrace
+# Log file: D:/Projects/karatsuba_multiplier/karatsuba_multiplier.runs/impl_1/mul64_v2.vdi
 # Journal file: D:/Projects/karatsuba_multiplier/karatsuba_multiplier.runs/impl_1\vivado.jou
 # Running On: DESKTOP-4FM5FN0, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8473 MB
 #-----------------------------------------------------------
-source mul64.tcl -notrace
+source mul64_v2.tcl -notrace

@@ -1,93 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1766996824">
-  <File Type="ROUTE-PWR" Name="mul64_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="mul64.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="mul64_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="mul64_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="mul64_rqa_opted.pb"/>
-  <File Type="BITSTR-MMI" Name="mul64.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="mul64_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="mul64_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="mul64_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="mul64_opt.dcp"/>
-  <File Type="OPT-DRC" Name="mul64_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="mul64.hwdef"/>
-  <File Type="PWROPT-DCP" Name="mul64_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="mul64_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="mul64_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="mul64_placed.dcp"/>
-  <File Type="PLACE-IO" Name="mul64_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="mul64_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="mul64_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="mul64_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="mul64_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="mul64_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="mul64_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="mul64.bin"/>
-  <File Type="PLACE-TIMING" Name="mul64_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="mul64_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="mul64_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="mul64_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="mul64.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="mul64_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="mul64_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="mul64_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="mul64.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="mul64_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="mul64_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="mul64_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="mul64_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="mul64_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="mul64_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="mul64_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="mul64_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mul64_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mul64_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="mul64_rqs_routed.pb"/>
-  <File Type="ROUTE-STATUS" Name="mul64_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="mul64_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="mul64_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="mul64_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="mul64_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="mul64_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="mul64_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="mul64_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="mul64_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="mul64_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mul64_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mul64_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mul64_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mul64_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mul64_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mul64_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="mul64.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mul64_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mul64_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="mul64.nky"/>
-  <File Type="BITSTR-BMM" Name="mul64_bd.bmm"/>
-  <File Type="PDI-FILE" Name="mul64.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="mul64_boot.pdi"/>
-  <File Type="PL-PDI-FILE" Name="mul64_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="mul64.rcfi"/>
-  <File Type="CFI_FILE" Name="mul64.cfi"/>
-  <File Type="RNPI_FILE" Name="mul64.rnpi"/>
-  <File Type="NPI_FILE" Name="mul64.npi"/>
-  <File Type="RBD_FILE" Name="mul64.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1767007738">
+  <File Type="ROUTE-PWR" Name="mul64_v2_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="mul64_v2.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="mul64_v2_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="mul64_v2_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="mul64_v2_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="mul64_v2.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="mul64_v2_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="mul64_v2_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="mul64_v2_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="mul64_v2_opt.dcp"/>
+  <File Type="OPT-DRC" Name="mul64_v2_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="mul64_v2.hwdef"/>
+  <File Type="PWROPT-DCP" Name="mul64_v2_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="mul64_v2_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="mul64_v2_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="mul64_v2_placed.dcp"/>
+  <File Type="PLACE-IO" Name="mul64_v2_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="mul64_v2_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="mul64_v2_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mul64_v2_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="mul64_v2_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="mul64_v2_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mul64_v2_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="mul64_v2.bin"/>
+  <File Type="PLACE-TIMING" Name="mul64_v2_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="mul64_v2_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="mul64_v2_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mul64_v2_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="mul64_v2.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="mul64_v2_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="mul64_v2_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="mul64_v2_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="mul64_v2.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="mul64_v2_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="mul64_v2_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="mul64_v2_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mul64_v2_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="mul64_v2_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mul64_v2_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="mul64_v2_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mul64_v2_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mul64_v2_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mul64_v2_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="mul64_v2_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="mul64_v2_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mul64_v2_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mul64_v2_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="mul64_v2_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mul64_v2_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="mul64_v2_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="mul64_v2_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="mul64_v2_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="mul64_v2_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="mul64_v2_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mul64_v2_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mul64_v2_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mul64_v2_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mul64_v2_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mul64_v2_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mul64_v2_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="mul64_v2.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mul64_v2_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mul64_v2_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="mul64_v2.nky"/>
+  <File Type="BITSTR-BMM" Name="mul64_v2_bd.bmm"/>
+  <File Type="PDI-FILE" Name="mul64_v2.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="mul64_v2_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="mul64_v2_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="mul64_v2.rcfi"/>
+  <File Type="CFI_FILE" Name="mul64_v2.cfi"/>
+  <File Type="RNPI_FILE" Name="mul64_v2.rnpi"/>
+  <File Type="NPI_FILE" Name="mul64_v2.npi"/>
+  <File Type="RBD_FILE" Name="mul64_v2.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="mul64.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="mul64.sysdef"/>
-  <File Type="BG-BGN" Name="mul64.bgn"/>
-  <File Type="BG-DRC" Name="mul64.drc"/>
-  <File Type="RDI-RDI" Name="mul64.vdi"/>
+  <File Type="BITSTR-LTX" Name="mul64_v2.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="mul64_v2.sysdef"/>
+  <File Type="BG-BGN" Name="mul64_v2.bgn"/>
+  <File Type="BG-DRC" Name="mul64_v2.drc"/>
+  <File Type="RDI-RDI" Name="mul64_v2.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="mul64_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="mul64_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="mul64_v2_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="mul64_v2_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/mul64_v2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/mul64.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -95,8 +103,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="mul64"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="mul64_v2"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
