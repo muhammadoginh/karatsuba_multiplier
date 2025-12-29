@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2_AR000036317 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Dec 29 17:27:10 2025
+# Process ID: 21428
+# Current directory: D:/Projects/karatsuba_multiplier/karatsuba_multiplier.runs/synth_1
+# Command line: vivado.exe -log mul64.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mul64.tcl
+# Log file: D:/Projects/karatsuba_multiplier/karatsuba_multiplier.runs/synth_1/mul64.vds
+# Journal file: D:/Projects/karatsuba_multiplier/karatsuba_multiplier.runs/synth_1\vivado.jou
+# Running On: DESKTOP-4FM5FN0, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8473 MB
+#-----------------------------------------------------------
+source mul64.tcl -notrace
